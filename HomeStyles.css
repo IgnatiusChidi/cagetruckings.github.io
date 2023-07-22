@@ -1,0 +1,763 @@
+/*univeral*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navbar*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: #272727;
+    height: min-content;
+}
+
+#logo img{
+    width: 100px;
+}
+
+#navTextDiv ul{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+}
+
+#navTextDiv ul li a{
+    margin: 0px 20px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+#navTextDiv ul li a:hover{
+    color:#FF9D00;
+}
+
+#navTextDiv ul li a:active{
+    color: #e58d00;
+    text-decoration: underline;
+}
+
+#accountPic{
+    width: 30px;
+    cursor: pointer;
+}
+
+#hbMenuButton{
+    display: none;
+}
+
+#hbMenuButton img{
+    width: 40px;
+    cursor: pointer;
+}
+
+#closeMenu{
+    display: none;
+}
+
+#closeMenu img{
+    width: 30px;
+    cursor: pointer;
+}
+
+#navIcons{
+    display: flex;
+    align-items: center;
+}
+
+#navIcons p{
+    color: white;
+    margin: 0px 20px;
+}
+
+/*Navbar Animations*/
+
+/*Page 1*/
+
+#page1{
+    height: 130vh;
+    width: 100%;
+    background-color: #272727;
+    background: url([Downloader.la]-649d87df33797.jpg), #272727;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+#MainDiv{
+    display: grid;
+    justify-items: center;
+    padding: 30px 60px;
+    
+}
+
+#MainInfo{
+    display: grid;
+    justify-items: center;
+    margin: 16% 0%;
+}
+
+#MainInfo h1{
+    font-size: 60px;
+    color: #FF9D00;
+    margin: 3px 0px;
+}
+
+#MainInfo p{
+    color: white;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+#MainInfo button{
+    background-color: #FF9D00;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+}
+
+#MainInfo button:hover{
+    background-color: #ffaa20;
+}
+
+/*Page 2*/
+#page2{
+    height: auto;
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    background-color: #272727;
+    padding: 30px 0px;
+}
+
+#aboutUsHead{
+    color: #FF9D00;
+    margin-bottom: 60px;
+}
+
+#aboutUsBody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#aboutUsBody p{
+    color: white;
+    font-size: 22px;
+    margin: 0px 50px;
+}
+
+#aboutUsBody img{
+    width: 429px;
+    height: 290.46px;
+    border-radius: 10px;
+}
+
+/*Page 3*/
+
+#page3{
+    display: grid;
+    justify-items: center;
+    background-color: #272727;
+}
+
+#page3 h6{
+    color: #FF9D00;
+    font-size: 20px;
+}
+
+#page3 h4{
+    color: #FF9D00;
+}
+
+#page3 p{
+    color: white;
+    text-align: center;
+}
+
+#services{
+    width: 100%;
+    padding: 30px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services2{
+    display: grid;
+    justify-items: center;
+}
+
+.services2 img{
+    width: 270px;
+    border-radius: 10px;
+    margin: 20px 0px;
+}
+
+#page4{
+    background-color: #272727;
+    padding: 40px 120px;
+;
+}
+
+#productsContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 80px;
+}
+
+#productsContainer a{
+    text-decoration: none;
+}
+
+.product{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    border-radius: 30px;
+    padding: 20px 10px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.product:hover{
+    transform: translateY(-15px);
+}
+
+.productpic{
+    width: 200px;
+    border-radius: 20px;
+}
+
+.product div{
+    margin: 0px;
+    padding: 20px 10px;
+    background-color: #FF9D00;
+    width: 200px;
+    height: 100px;
+    border-radius: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.product h5{
+    color: white;
+}
+
+.product p{
+    color: white;
+}
+
+/*footer*/
+
+footer{
+    background-color: white;
+    padding: 5px 40px;
+    display: flex;
+    align-items: center;
+}
+
+#footerLogo{
+    width: 130px;
+    margin: 10px 20px;
+}
+
+.icons{
+    width: 20px;
+    margin-right: 13px;
+}
+
+footer p{
+    font-size: 15px;
+    margin: 15px 0px;
+}
+
+footer a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+#contactUs{
+    margin: 0px 30px;
+    padding: 0px 40px;
+}
+
+.contactUsDiv{
+    margin: 20px 30px;
+    display: flex;
+    align-items: center;
+}
+
+#contactUsHeader{
+    margin: 20px;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 992px){
+    nav{
+        padding: 0px 30px;
+    }
+
+    #navTextDiv ul li a{
+        font-size: 12px;
+    }
+    
+    #logo img{
+        width: 60px;
+    }
+    
+    #accountPic{
+        width: 30px;
+    }
+    
+    #navIcons p{
+        margin: 0px 30px;
+        font-size: 12px;
+    }
+
+    
+    #page1{
+        height: 100vh;
+    }
+
+    #MainDiv{
+        padding: 20px 40px;
+        
+    }
+
+    #MainInfo{
+        margin: 10% 0%;
+    }
+
+    #MainInfo h1{
+        font-size: 70px;
+        margin: 3px 0px;
+    }
+
+    #MainInfo p{
+        font-size: 35px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+
+    #MainInfo button{
+        border-radius: 20px;
+        padding: 10px 40px;
+    }
+
+    #page2{
+        width: 100%;
+        padding: 30px 20px;
+    }
+    
+    #aboutUsBody p{
+        font-size: 18px;
+        margin: 0px 50px;
+    }
+    
+    #aboutUsBody img{
+        width: 286px;
+        height: 193.64px;
+    }
+
+    #aboutUsHead{
+        margin-bottom: 40px;
+        padding: 0px;
+    }
+    
+    #page3 h6{
+        font-size: 18px;
+    }
+    
+    #services{
+        width: 100%;
+        padding: 30px 110px;
+    }
+    
+    .services2 img{
+        width: 170px;
+        border-radius: 10px;
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    nav{
+        padding: 0px 40px;
+    }
+    
+    #logo img{
+        width: 60px;
+    }
+    
+    #navTextDiv ul{
+        display: grid;
+        display: none;
+        justify-items: center;
+        position: absolute;
+        background-color: #151515;
+        border-radius: 20px;
+        float: right;
+        right: 0;
+        top: 0;
+        margin: 10px;
+    }
+
+    #closeMenu{
+        position: absolute;
+        right: 0;
+        top: 0;
+        margin: 10px;
+        margin-bottom: 40px;
+    }
+
+    #navTextDiv ul li{
+        margin: 40px 60px;
+    }
+    
+    #accountPic{
+        width: 30px;
+    }
+    
+    #hbMenuButton{
+        display: block;
+    }
+
+    #hbMenuButton img{
+        margin-left: 20px;
+        width: 30px;
+    }
+    
+    #navIcons p{
+        margin: 0px 30px;
+        font-size: 12px;
+    }
+
+    
+    #page1{
+        height: 80vh;
+    }
+
+    #MainDiv{
+        padding: 20px 40px;
+        
+    }
+
+    #MainInfo{
+        margin: 16% 0%;
+    }
+
+    #MainInfo h1{
+        font-size: 60px;
+        margin: 3px 0px;
+    }
+
+    #MainInfo p{
+        font-size: 25px;
+        margin: 10px 0px;
+    }
+
+    #MainInfo button{
+        border-radius: 20px;
+        padding: 10px 40px;
+    }
+
+    #page2{
+        width: 100%;
+        padding: 30px 20px;
+    }
+    
+    #aboutUsBody p{
+        font-size: 15px;
+        margin: 0px 30px;
+    }
+    
+    #aboutUsBody img{
+        width: 286px;
+        height: 193.64px;
+    }
+
+    #aboutUsHead{
+        margin-bottom: 40px;
+        padding: 0px;
+    }
+    
+    #page3 h6{
+        font-size: 18px;
+    }
+    
+    #services{
+        width: 100%;
+        padding: 30px 60px;
+    }
+    
+    .services2 img{
+        width: 170px;
+        border-radius: 10px;
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 684px){
+    nav{
+        padding: 0px 50px;
+    }
+
+    #hbMenuButton img{
+        margin-left: 17px;
+    }
+
+    #page1{
+        height: 70vh;
+    }
+
+    @keyframes backgroundove{
+        0%{
+            transform: translateX(0);
+        }
+
+        50%{
+            transform: translateX(-50%);
+        }
+
+        0%{
+            transform: translateX(0);
+        }
+    }
+
+    #MainDiv{
+        padding: 20px 30px;
+    }
+
+    #MainInfo{
+        margin: 10% 0%;
+    }
+
+    #MainInfo h1{
+        font-size: 35px;
+        margin: 0px;
+    }
+
+    #MainInfo p{
+        font-size: 18px;
+        margin: 15px 0px;
+        text-align: center;
+    }
+
+    #page2{
+        width: 100%;
+        padding: 30px 0px;
+    }
+
+    #aboutUsBody{
+        display: grid;
+        justify-items: center;
+    }
+    
+    #aboutUsBody p{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #aboutUsBody img{
+        width: 270px;
+        height: 180px;
+    }
+
+    #aboutUsHead{
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+    
+    #page3 h6{
+        font-size: 15px;
+    }
+    
+    #services{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+    }
+    
+    .services2 img{
+        width: 240px;
+        border-radius: 10px;
+        margin: 20px 0px;
+    }
+
+    .services2  h6{
+        margin: 10px 0px;
+    }
+
+    footer{
+        width: 100%;
+        padding: 5px 10px;
+    }
+    
+    #footerLogo{
+        width: 80px;
+        margin: 10px 20px;
+    }
+    
+    .icons{
+        width: 18px;
+        margin-right: 13px;
+    }
+    
+    footer p{
+        font-size: 12px;
+        margin: 15px 0px;
+    }
+    
+    footer a{
+        font-size: 12px;
+    }
+    
+    #contactUs{
+        margin: 0px 20px;
+    }
+    
+    .contactUsDiv{
+        margin: 20px 20px;
+    }
+    
+    #contactUsHeader{
+        margin: 20px;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    nav{
+        padding: 0px 30px;
+    }
+
+    #hbMenuButton img{
+        margin-left: 15px;
+    }
+
+    #page1{
+        height: 70vh;
+        
+    }
+
+    #MainDiv{
+        padding: 20px 20px;
+    }
+
+    #MainInfo{
+        margin: 30% 0%;
+    }
+
+    #MainInfo h1{
+        font-size: 30px;
+        margin: 0px;
+    }
+
+    #MainInfo p{
+        font-size: 16px;
+        margin: 15px 0px;
+        text-align: center;
+    }
+
+    #page2{
+        width: 100%;
+        padding: 30px 0px;
+    }
+
+    #aboutUsBody{
+        display: grid;
+        justify-items: center;
+    }
+    
+    #aboutUsBody p{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    #aboutUsBody img{
+        width: 270px;
+        height: 180px;
+    }
+
+    #aboutUsHead{
+        margin-bottom: 30px;
+        padding: 0px;
+    }
+    
+    #page3 h6{
+        font-size: 15px;
+    }
+    
+    #services{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        display: grid;
+        justify-items: center;
+        justify-content: center;
+    }
+    
+    .services2 img{
+        width: 240px;
+        border-radius: 10px;
+        margin: 20px 0px;
+    }
+
+    .services2  h6{
+        margin: 10px 0px;
+    }
+
+    footer{
+        width: 100%;
+        padding: 5px 10px;
+    }
+    
+    #footerLogo{
+        width: 80px;
+        margin: 10px 20px;
+    }
+    
+    .icons{
+        width: 18px;
+        margin-right: 13px;    }
+    
+    footer p{
+        font-size: 12px;
+        margin: 15px 0px;
+    }
+    
+    footer a{
+        font-size: 12px;
+    }
+    
+    #contactUs{
+        margin: 0px 20px;
+    }
+    
+    .contactUsDiv{
+        margin: 20px 20px;
+    }
+    
+    #contactUsHeader{
+        margin: 20px;
+    }
+}
